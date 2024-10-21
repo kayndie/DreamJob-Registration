@@ -1,0 +1,10 @@
+CREATE TABLE comprendio (
+    Applicant_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    specialization VARCHAR(100) NOT NULL,
+    experience_years INT NOT NULL,
+    known_languages TEXT,
+    portfolio_link VARCHAR(255),
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
